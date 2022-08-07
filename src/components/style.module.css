@@ -1,0 +1,40 @@
+.fade {
+  opacity: 0.6;
+  transition-duration: .6s;
+}
+
+.fade:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.fades {
+  opacity: 0.6;
+  transition-duration: .6s;
+}
+
+.fades:hover {
+  opacity: 1;
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.faded {
+  opacity: 0.6;
+  transition-duration: .6s;
+}
+
+.faded:hover {
+  opacity: 1;
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.btnCard {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
