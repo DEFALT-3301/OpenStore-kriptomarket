@@ -8,7 +8,6 @@ const CardCollection = () => {
       <div className='row'>
         <div className='col-4'>
           <div className="card shadow bg-white rounded" style={{ marginTop: 50 }}>
-
             <div className="card-body d-flex">
               <h5 style={{ marginTop: 18 }}>1</h5>
               <img src={avatar} style={{ width: 60, borderRadius: 30, marginLeft: 10 }} />
